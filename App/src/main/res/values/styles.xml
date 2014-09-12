@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Automattic" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Automattic.ActionBar</item>
+    </style>
+
+    <style name="Automattic.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

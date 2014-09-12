@@ -1,0 +1,7 @@
+include ':App'
+
+include ':Lessons:01_Primitives'
+include ':Lessons:02_Collections'
+include ':Lessons:03_CustomClasses'
+include ':Lessons:04_AndroidActivity'
+include ':Lessons:05_ListView'

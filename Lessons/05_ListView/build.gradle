@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '19.1.0'
+    
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.automattic.learnup_listview"
+        versionCode 1
+        minSdkVersion 15
+        targetSdkVersion 20
+    }
+
+}

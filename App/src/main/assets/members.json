@@ -1,0 +1,11 @@
+[
+    { "name" : "Alexander Concha", "email" : "alex.concha@automattic.com"    },
+    { "name" : "Bob Ralian"      , "email" : "bob@automattic.com"            },
+    { "name" : "Mark George"     , "email" : "markg@automattic.com"          },
+    { "name" : "Shawna J Roberts", "email" : "shawna@automattic.com"         },
+    { "name" : "Eric Binnion"    , "email" : "eric.binnion@automattic.com"   },
+    { "name" : "Andy Peatling"   , "email" : "apeatling@automattic.com"      },
+    { "name" : "Tony Kovanen"    , "email" : "tony.kovanen@automattic.com"   },
+    { "name" : "Henrique Mouta"  , "email" : "henrique.mouta@automattic.com" },
+    { "name" : "Robert Collins"  , "email" : "robert@automattic.com"         }
+]

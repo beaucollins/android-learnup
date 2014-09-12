@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Automattic</string>
+x        <string name="subtitle">Park City 2014</string>
+    <string name="team_members">Team Members</string>
+    <string name="description">        In 2014 a small group of Automatticians gathered in Park City and learned how to unleash their inner Androids.
+        \n\nThe world was not ready for what would happen next.</string>
+    <string name="title_activity_members">MembersActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

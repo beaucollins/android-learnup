@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_simple_list">SimpleListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty">Empty List</string>
+
+    <string-array name="teams">
+        <item>51</item>
+        <item>Ads</item>
+        <item>Akismet</item>
+        <item>Api Task Force</item>
+        <item>Atlas</item>
+        <item>Aurora</item>
+        <item>Blog Squad</item>
+        <item>Board</item>
+        <item>Bridget</item>
+        <item>Cerberus</item>
+        <item>Cloudup</item>
+        <item>Community</item>
+        <item>Core Apps Squad</item>
+        <item>Core Happiness</item>
+        <item>Customizer Squads</item>
+        <item>Data</item>
+        <item>Design</item>
+        <item>Developer Experience</item>
+        <item>Editorial</item>
+        <item>Global</item>
+        <item>Happiness</item>
+        <item>Happiness Gardening</item>
+        <item>Happiness Hiring</item>
+        <item>Hermes</item>
+        <item>Hyperion</item>
+        <item>I/O</item>
+        <item>Janitorial</item>
+        <item>Jetpack Pit Crew</item>
+        <item>Justicia</item>
+        <item>Mercury</item>
+        <item>Operations</item>
+        <item>Ops Division</item>
+        <item>Polldaddy</item>
+        <item>Premium Services</item>
+        <item>Reader Squad</item>
+        <item>Simperium</item>
+        <item>Store Aux</item>
+        <item>Store Division</item>
+        <item>Store Happiness</item>
+        <item>Store Wranglers</item>
+        <item>Systems</item>
+        <item>Theme Division</item>
+        <item>Theme Generators</item>
+        <item>Theme Happiness</item>
+        <item>Theme Wranglers</item>
+        <item>Tinker</item>
+        <item>VIP</item>
+        <item>VIP Tools &amp; Support</item>
+        <item>VIP Business Development &amp; Marketing</item>
+        <item>WordPress.org</item>
+r</string-array>
+
+    <string name="title_activity_complex_list">ComplexListActivity</string>
+
+</resources>
