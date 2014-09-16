@@ -1,9 +1,11 @@
 package com.automattic.learnup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class ActivityLightStyle extends Activity {
@@ -12,8 +14,38 @@ public class ActivityLightStyle extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity_light_style);
+
+        View success = findViewById(R.id.success);
+        success.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doSuccess();
+            }
+        });
+
+        View failure = findViewById(R.id.failure);
+        failure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doFailure();
+            }
+        });
     }
 
+    private void doFailure() {
+        doResult(false);
+    }
+
+    private void doSuccess() {
+        doResult(true);
+    }
+
+    void doResult(boolean result) {
+        Intent intent = new Intent();
+        intent.putExtra("myresult", result);
+        setResult(RESULT_OK, intent);
+        finish();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
