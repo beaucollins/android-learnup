@@ -34,13 +34,13 @@ public class Activity1 extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        boolean result = data.getBooleanExtra("myresult", false);
+        Log.d(TAG, "start activity " + data + " pushed: " + result);
     }
 
     private void launchActivity2() {
         Intent intent = new Intent(Activity1.this, ActivityLightStyle.class);
         intent.putExtra("message", "hello world");
-        boolean result = intent.getBooleanExtra("myresult", false);
-        Log.d(TAG, "start activity " + intent + " pushed: " + result);
 
         startActivityForResult(intent, 0);
     }
