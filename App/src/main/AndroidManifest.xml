@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.automattic.app" >
 
+    <uses-permission android:name="android.permission.INTERNET" android:required="true"/>
+
     <application
         android:name="com.automattic.app.App"
         android:allowBackup="false"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/mark/Projects/android-learnup/App/build/intermediates/pre-dexed/debug/okio-1.0.0-f8a9f15d607f7d10b72015270328ccf5a9978430.jar"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
+    <item
+        dex="/Users/mark/Projects/android-learnup/App/build/intermediates/pre-dexed/debug/okhttp-2.0.0-1c3eeb7b8fc65de2345d00c7263c8fe545c22283.jar"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e"/>
+
+</pre-dex-items>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/mark/Projects/android-learnup/App/src/main/res" >
+            <file
+                name="ic_automattic_dark"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-hdpi/ic_automattic_dark.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_logo"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-hdpi/ic_automattic_logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_dark"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-mdpi/ic_automattic_dark.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_logo"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-mdpi/ic_automattic_logo.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_dark"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xhdpi/ic_automattic_dark.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_logo"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xhdpi/ic_automattic_logo.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_dark"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xxhdpi/ic_automattic_dark.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_automattic_logo"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xxhdpi/ic_automattic_logo.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+                qualifiers="xxxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_members"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/layout/activity_members.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="members"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/menu/members.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values/color.xml"
+                qualifiers="" >
+                <color name="white" >#FFF
+                </color>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="team_members" >Team Members
+                </string>
+                <string name="app_name" >Automattic
+                </string>
+                <string name="subtitle" >Park City 2014
+                </string>
+                <string name="description" >        In 2014 a small group of Automatticians gathered in Park City and learned how to unleash their inner Androids.
+        \n\nThe world was not ready for what would happen next.
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_members" >MembersActivity
+                </string>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="Theme.Automattic"
+                    parent="@android:style/Theme.Holo.Light" >
+                    <item name="android:actionBarStyle">
+@style/Automattic.ActionBar
+                    </item>
+                </style>
+
+                <style
+                    name="Automattic.ActionBar"
+                    parent="@android:style/Widget.Holo.Light.ActionBar.Solid" >
+                    <item name="android:background">
+@color/white
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values-es/strings.xml"
+                qualifiers="es" >
+                <string name="hello_world" >Hola Mundo
+                </string>
+                <string name="app_name" >Learnup App
+                </string>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="member_item"
+                path="/Users/mark/Projects/android-learnup/App/src/main/res/layout/member_item.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/mark/Projects/android-learnup/App/build/generated/res/rs/debug" />
+        <source path="/Users/mark/Projects/android-learnup/App/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mark/Projects/android-learnup/App/src/debug/res" />
+    </dataSet>
+
+</merger>

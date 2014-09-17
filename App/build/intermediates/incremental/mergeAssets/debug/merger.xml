@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/mark/Projects/android-learnup/App/src/main/assets" >
+            <file
+                name="members.json"
+                path="/Users/mark/Projects/android-learnup/App/src/main/assets/members.json" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mark/Projects/android-learnup/App/src/debug/assets" />
+    </dataSet>
+
+</merger>

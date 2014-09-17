@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.automattic.learnup"
+    android:versionCode="1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@android:drawable/sym_def_app_icon" >
+        <activity
+            android:name="com.automattic.learnup.Activity1"
+            android:label="@string/title_activity_activity1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.automattic.learnup.ActivityLightStyle"
+            android:label="@string/title_activity_activity_light_style"
+            android:parentActivityName="com.automattic.learnup.Activity1"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.automattic.learnup.Activity1" />
+        </activity>
+        <activity
+            android:name="com.automattic.learnup.MyActivity"
+            android:label="@string/title_activity_my" >
+        </activity>
+    </application>
+
+</manifest>

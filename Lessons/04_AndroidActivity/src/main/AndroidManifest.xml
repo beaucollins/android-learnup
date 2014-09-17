@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.automattic.learnup" >
 
     <application
         android:allowBackup="false"
         android:icon="@android:drawable/sym_def_app_icon" >
         <activity
-            android:name="com.automattic.learnup.Activity1"
+            android:name=".Activity1"
             android:label="@string/title_activity_activity1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,14 +15,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@android:style/Theme.Holo.Light"
-            android:name="com.automattic.learnup.ActivityLightStyle"
+            android:name=".ActivityLightStyle"
             android:label="@string/title_activity_activity_light_style"
-            android:parentActivityName="com.automattic.learnup.Activity1"
-            tools:ignore="UnusedAttribute">
+            android:parentActivityName=".Activity1"
+            android:theme="@android:style/Theme.Holo.Light" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.automattic.learnup.Activity1" />
+        </activity>
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/title_activity_my" >
         </activity>
     </application>
 

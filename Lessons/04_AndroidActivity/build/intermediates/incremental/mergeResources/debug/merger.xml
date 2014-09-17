@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res" >
+            <file
+                name="activity_activity1"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/layout/activity_activity1.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_activity_light_style"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/layout/activity_activity_light_style.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity1"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/menu/activity1.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity2"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/menu/activity2.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_light_style"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/menu/activity_light_style.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="start" >Start
+                </string>
+                <string name="title_activity_activity1" >Activity1
+                </string>
+                <string name="title_activity_activity2" >Activity2
+                </string>
+                <string name="title_activity_my" >MyActivity
+                </string>
+                <string name="title_activity_activity_light_style" >ActivityLightStyle
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="my"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/menu/my.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_my"
+                path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/main/res/layout/activity_my.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/build/generated/res/rs/debug" />
+        <source path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mark/Projects/android-learnup/Lessons/04_AndroidActivity/src/debug/res" />
+    </dataSet>
+
+</merger>

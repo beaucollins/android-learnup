@@ -7,5 +7,6 @@
     <string name="start">Start</string>
     <string name="title_activity_activity2">Activity2</string>
     <string name="title_activity_activity_light_style">ActivityLightStyle</string>
+    <string name="title_activity_my">MyActivity</string>
 
 </resources>

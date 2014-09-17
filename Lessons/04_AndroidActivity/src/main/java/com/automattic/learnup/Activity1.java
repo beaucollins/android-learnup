@@ -1,17 +1,32 @@
 package com.automattic.learnup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.automattic.learnup.R;
 
 public class Activity1 extends Activity {
+
+    private static final String TAG = "Activity1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity1);
+
+        View view = findViewById(R.id.button);
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity1.this, ActivityLightStyle.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
