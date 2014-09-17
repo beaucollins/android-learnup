@@ -2,8 +2,10 @@ package com.automattic.app;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -24,7 +26,23 @@ public class MainActivity extends Activity {
         if (actionBar != null) {
             actionBar.setSubtitle(R.string.subtitle);
         }
+
+        View button = findViewById(R.id.members_button);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openMembers();
+            }
+        });
+
     }
+
+    private void openMembers() {
+        Intent intent = new Intent(this, MembersActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onResume() {
