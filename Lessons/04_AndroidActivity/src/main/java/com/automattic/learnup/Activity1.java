@@ -1,18 +1,50 @@
 package com.automattic.learnup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import com.automattic.learnup.R;
+import android.view.View;
 
 public class Activity1 extends Activity {
+
+    private static final String TAG = "Activity1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity1);
+        View view = findViewById(R.id.button);
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                launchActivity2();
+
+
+
+            }
+        });
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        boolean result = data.getBooleanExtra("myresult", false);
+        Log.d(TAG, "start activity " + data + " pushed: " + result);
+    }
+
+    private void launchActivity2() {
+        Intent intent = new Intent(Activity1.this, ActivityLightStyle.class);
+        intent.putExtra("message", "hello world");
+
+        startActivityForResult(intent, 0);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

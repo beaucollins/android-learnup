@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.io.BufferedInputStream;
@@ -41,8 +42,6 @@ public class ComplexListActivity extends ListActivity {
     private int mCreatedViewCount = 0;
     private int mUsedViewCount = 0;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,9 +54,17 @@ public class ComplexListActivity extends ListActivity {
 
         mStatusText = (TextView) findViewById(R.id.status);
 
+        ListView listView = getListView();
+
+
         updateStatusText();
     }
 
+    public void logTapped() {
+        Integer integer = 5;
+        Log.d("App", "tapped " + integer);
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -206,7 +213,24 @@ public class ComplexListActivity extends ListActivity {
             updateStatusText();
 
             LayoutInflater inflater = getLayoutInflater();
-            return inflater.inflate(R.layout.element_list_item, parent, false);
+
+            View view = inflater.inflate(R.layout.element_list_item, parent, false);
+
+            TextView tv = (TextView) view.findViewById(R.id.name);
+            ViewHolder holder = new ViewHolder(tv);
+            view.setTag(holder);
+
+            return view;
+
+        }
+
+        private class ViewHolder {
+            private final TextView textView;
+
+            public ViewHolder(TextView tv) {
+                textView = tv;
+            }
+
         }
 
         @Override
@@ -214,11 +238,12 @@ public class ComplexListActivity extends ListActivity {
             mUsedViewCount ++;
             updateStatusText();
 
-            TextView nameText = (TextView) view.findViewById(R.id.name);
+            ViewHolder holder = (ViewHolder) view.getTag();
             TextView groupText = (TextView) view.findViewById(R.id.group);
 
-            nameText.setText(cursor.getString(cursor.getColumnIndex("name")));
+            holder.textView.setText(cursor.getString(cursor.getColumnIndex("name")));
             groupText.setText(cursor.getString(cursor.getColumnIndex("section")));
+
         }
 
     }
